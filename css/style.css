@@ -1,128 +1,3 @@
-    /* *{
-        color: #212121;
-        font-family: "Nunito", sans-serif;
-        margin: 0;
-        padding: 0;
-        background: #FFF5EF;
-        list-style-type: none;
-    }
-
-    header {
-        padding: 20px 40px 20px 40px;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        min-height: 70px;
-        background: #fefefe;
-    }
-
-    header div img {
-        display: flex;
-        background: #fefefe;
-    }
-
-    nav a {
-        background: #fefefe;
-        text-decoration: none;
-    }
-
-    nav a:hover {
-        text-decoration: #212121;
-        text-decoration: underline;
-        text-underline-offset: 4px;
-    }
-
-    nav {
-        background: #fefefe;
-        display: flex;
-        gap: 40px;
-    }
-
-    .imgPrincipal {
-        display: flex;
-        width: 100%;
-    }
-
-    .descripción {
-        display: flex;
-        padding: 10px 200px 10px 200px;
-        text-align: center;
-        margin-top: 40px;
-        margin-bottom: 40px;
-        font-style: italic;
-    }
-
-    .contenido {
-        display: flex;
-        justify-content: center;
-        gap: 20px;
-        width: auto;
-        padding: 40px 20px 40px 20px;
-
-    }
-
-    div div img {
-        width: 300px;
-        height: 300px;
-    }
-
-    footer {
-        padding: 40px 80px 40px 80px;
-        background: #C1AB9D;
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .ifoF {
-        background: #C1AB9D;
-        text-decoration: none;
-    }
-
-    .ifocontenedor {
-        background: #C1AB9D;
-    }
-
-    .redes{
-        display: flex;
-        gap: 20px;
-        background: #C1AB9D;
-    }
-
-    .icon {
-        cursor: pointer;
-    }
-
-    .historia {
-        display: flex;
-        gap: 100px;
-        align-items: center;
-        padding: 20px 100px 20px 100px;
-        font-style: italic;
-    }
-
-    .separar {
-        flex-direction: column;
-        gap: 40px;
-    }
-
-    .form{
-        flex-direction: column;
-        gap: 10px;
-
-    } 
-
-    button {
-        padding: 4px;
-        background: #C1AB9D;
-        color: #fefefe
-    ;
-    }
- */
-
-
-
-
-
 *{
     color: #212121;
     font-family: "Nunito", sans-serif;
@@ -256,12 +131,16 @@ a:link {
     border-radius: 20px;
 }
 
+div div img {
+    width: 300px;
+    height: 300px;
+}
 /* Fin main */
 
 /* Footer */
 
 .container__footer {
-    background: #A79696;
+    background: #C1AB9D;
     height: 300px;
     display: flex;
     justify-content: space-around;
@@ -272,25 +151,25 @@ a:link {
 }
 
 .ifoF {
-    background: #A79696;
+    background: #C1AB9D;
     text-decoration: none;
     cursor: pointer;
     
 }
 
 .container__ifo--util {
-    background: #A79696;
+    background: #C1AB9D;
 }
 
 .redes-container{
     display: flex;
     gap: 20px;
-    background: #A79696;
+    background: #C1AB9D;
 }
 
 @media only screen and (max-width: 576px){
     .container__footer {
-        background: #A79696;
+        background: #C1AB9D;
         height: 300px;
         display: flex;
         justify-content: space-between;
@@ -351,7 +230,7 @@ a:link {
 
 button {
     padding: 4px;
-    background: #A79696;
+    background: #C1AB9D;
     color: #fefefe
 ;
 }
