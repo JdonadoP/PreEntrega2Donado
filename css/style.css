@@ -99,10 +99,19 @@ a:link {
     padding: 10px 50px;
 }
 
+@media only screen and (max-width: 1200px){
+    .grid__productos--container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
+        padding: 10px 50px;
+    }
+}
+
 @media only screen and (max-width: 992px){
     .grid__productos--container {
         display: grid;
-        grid-template-columns: repeat(4, fr);
+        grid-template-columns: repeat(2, 1fr);
         gap: 30px;
         padding: 10px 50px;
     }
@@ -111,7 +120,7 @@ a:link {
 @media only screen and (max-width: 768px) {
     .grid__productos--container {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
         gap: 30px;
         padding: 10px 50px;
     }
